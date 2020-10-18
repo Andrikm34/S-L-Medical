@@ -4,43 +4,47 @@
     padding: 0;
 }
 
-section {
+.first_section {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
     min-height: 300px;
     background-color: navajowhite;
     width: 100vw;
 }
 
-address {
+.first_section address {    
     display: flex;
+    justify-content: space-around;
+    padding: 20px;
     width: 35vw;
-    display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 50px;
 }
 
-.logo {
+.first_section .logo {
     display: flex;
-    width: 30vw;
+    padding: 20px;
+    width: 15vw;
     justify-content: center;
 }
 
-.first_button {
+.first_section .first_button {
     display: flex;
+    flex-direction: column;
     width: 35vw;
     padding: 30px;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 30px;    
+}
+
+.first_section .first_button_text {
+    font-size: 20px;
 }
 
 .action_button {
     display: flex;
-    align-self: flex-end;
-    
-    
+    align-self: center;  
 }
 
 .menu {
@@ -50,4 +54,115 @@ address {
     align-items: center;
     min-height: 90px;
     background-color: palegreen;
+}
+
+.main {
+    min-height: 500px;
+    background-color: rgb(86, 154, 175);;
+}
+
+.main .company_name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.main .more_information_btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px auto;
+    margin-top: 300px;
+    width: 300px;
+    height: 50px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0 , 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    font-size: 35px;  
+}
+
+.projects {
+    min-height: 900px;
+    background-color: rgb(168, 250, 61);
+}
+
+.projects .projects_title {
+    text-align: center;
+    padding: 30px;
+}
+
+.projects .first_project {
+    height: 150px;
+    width: 70vw;
+    background-color: rgb(65, 28, 28);
+}
+
+.projects .first_vr {
+    margin-top: 30px;
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(65, 28, 28);
+}
+
+.projects .second_project {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    height: 150px;
+    width: 70vw;
+    background-color: rgb(65, 28, 28);
+}
+
+.projects .second_vr {
+    margin-top: 30px;
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(65, 28, 28);
+}
+
+.projects .more_information_btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0 , 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    font-size: 35px;  
+}
+
+.services {
+    min-height: 600px;
+}
+
+.services .services_title {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .service_first {
+    width: 30vw;
+    height: 470px;
+    background-color: rgb(97, 54, 197);
+}
+
+.services .service_second {
+    width: 30vw;
+    height: 470px;
+    background-color: rgb(97, 54, 197);
+}
+
+.services .service_third {
+    width: 30vw;
+    height: 470px;
+    background-color: rgb(97, 54, 197);
 }
