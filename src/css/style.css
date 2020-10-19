@@ -64,10 +64,6 @@ p {
     width: 35vw;   
 }
 
-.first_section .first_button_text {
-    /* font-size: 20px; */
-}
-
 .action_button {
     display: flex;
     align-self: center;
@@ -136,49 +132,74 @@ p {
 
 
 .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     min-height: 900px;
-    background-color: rgb(168, 250, 61);
+
 }
 
 .projects .projects_title {
     text-align: center;
+    margin: auto;
     padding: 30px;
 }
 
 .projects .first_project {
     height: 150px;
     width: 70vw;
-    background-color: rgb(65, 28, 28);
+    background-image: url(../img/first_project.jpg);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+
+.first_project h4 {
+    padding: 10px;
+    width: 46vw;
 }
 
 .projects .first_vr {
     margin-top: 30px;
     height: 150px;
     width: 100vw;
-    background-color: rgb(65, 28, 28);
+    background-image: url(../img/first_vr.jpg);
+    background-position: left;
+    background-size: cover;
+    background-position-x: 100px;
 }
 
 .projects .second_project {
-    display: flex;
-    justify-content: flex-end;
     margin-top: 30px;
+    margin-left: auto;
     height: 150px;
     width: 70vw;
-    background-color: rgb(65, 28, 28);
+    background-image: url(../img/second_project.jpg);
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+
+.second_project h4 {
+    padding: 10px;
+    width: 46vw;
 }
 
 .projects .second_vr {
     margin-top: 30px;
     height: 150px;
     width: 100vw;
-    background-color: rgb(65, 28, 28);
+    background-image: url(../img/second_vr.jpg);
+    background-position: left;
+    background-size: cover;
+    background-position-x: 100px;
 }
 
 .projects .more_information_btn {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 0px auto;
+    margin: 10px auto;
     margin-top: 30px;
     width: 300px;
     height: 50px;
@@ -193,32 +214,80 @@ p {
 }
 
 .services .services_title {
+    margin: 25px 0;
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
 
 ul {
+    list-style-type: none;
     display: flex;
     justify-content: space-around;
-    width: 90vw;
-    margin: 0 auto;
+    margin: 0 20px;
 }
 
 .services .service_first {
-    width: 30vw;
+    width: 25vw;
     height: 470px;
-    background-color: rgb(97, 54, 197);
+    outline: 5px solid #000;
+    text-align: center;
+    padding: 30px;
 }
 
 .services .service_second {
-    width: 30vw;
+    width: 25vw;
     height: 470px;
-    background-color: rgb(97, 54, 197);
+    outline: 5px solid #000;
+    text-align: center;
+    padding: 30px;
 }
 
 .services .service_third {
-    width: 30vw;
+    width: 25vw;
     height: 470px;
-    background-color: rgb(97, 54, 197);
+    outline: 5px solid #000;
+    text-align: center;
+    padding: 30px;
+}
+
+.guarantee_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.guarantee_text h4 {
+    display: flex;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+}
+
+.document_img {
+    height: 550px;
+    width: auto;
+}
+
+.guarantee_title {
+    text-align: center;
+}
+
+.feedback_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+}
+
+.title_feedback {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.feedback_text {
+    margin-top: 30px;
+    text-align: center;
+    width: 40em;
 }

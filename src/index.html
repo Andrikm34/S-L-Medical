@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>S&L Medical</title>
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -48,34 +49,46 @@
 
         <div class="projects">
             <h1 class="projects_title">Выполненные проекты</h1>
-            <div class="first_project">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat nostrum harum
-                cum numquam explicabo, ducimus quibusdam porro? Aperiam labore, dignissimos minima facilis eos esse
-                pariatur, dolorum delectus dicta dolor magni?</div>
-            <div class="first_vr"></div>
-            <div class="second_project">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa ipsum in
-                deserunt, blanditiis eos et. Adipisci voluptas corrupti doloribus beatae dolore fugiat, distinctio
-                inventore cupiditate, eius officia, soluta reprehenderit ad.</div>
-            <div class="second_vr"></div>
+            <div class="first_project animate__animated animate__bounceInLeft wow">
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat nostrum harum
+                    cum numquam explicabo, ducimus quibusdam porro? Aperiam labore, dignissimos minima facilis eos esse
+                    pariatur, dolorum delectus dicta dolor magni?</h4>
+            </div>
+            <div class="first_vr animate__animated animate__bounceInUp wow"></div>
+            <div class="second_project animate__animated animate__bounceInRight wow">
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa ipsum in
+                    deserunt, blanditiis eos et. Adipisci voluptas corrupti doloribus beatae dolore fugiat, distinctio
+                    inventore cupiditate, eius officia, soluta reprehenderit ad.</h4>
+            </div>
+            <div class="second_vr animate__animated animate__bounceInUp wow"></div>
             <button class="more_information_btn">Узнать больше</button>
         </div>
 
         <div class="services">
             <h2 class="services_title">Наши услуги</h2>
             <ul>
-                <li class="service_first"></li>
-                <li class="service_second"></li>
-                <li class="service_third"></li>
+                <li class="service_first">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate veniam in fugiat doloribus illo, voluptatem tempora, unde harum ex perferendis culpa repellendus aut repellat deleniti maiores inventore obcaecati. Et.</h4>
+                </li>
+                <li class="service_second">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolor esse incidunt debitis maiores? Laborum pariatur earum voluptas consequatur odit beatae temporibus. Esse, facilis? Labore molestias sapiente quae nihil tempora?</h4>
+                </li>
+                <li class="service_third">
+                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, esse dolores illum fuga necessitatibus possimus aut sint, animi hic eos expedita, reprehenderit inventore. Quod et quisquam, illo omnis maxime assumenda?</h4>
+                </li>
             </ul>
         </div>
 
         <div class="guarantee">
-            <h2 class="guarantee_title"></h2>
-            <p class="guarantee_text"></p>
-            <img src="" alt="" class="documents">
+            <h2 class="guarantee_title">Гарантии</h2>
+            <div class="guarantee_text">
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi similique, adipisci maiores blanditiis, unde numquam obcaecati dolor eveniet nulla nisi cupiditate voluptatum ipsa aliquid consectetur delectus omnis perspiciatis? Fugit!</h4>
+                <img src="../src/img/document.png" alt="document" class="document_img">
+            </div>
         </div>
 
         <div class="feedback_form">
-            <h2 class="title"></h2>
+            <h2 class="title_feedback">Форма обратной связи</h2>
             <p class="feedback_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis exercitationem
                 distinctio, debitis provident delectus totam libero impedit assumenda ratione sequi beatae vitae non
                 quis quam et officia cupiditate labore eos.</p>
@@ -87,6 +100,12 @@
         </footer>
 
     </div>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+
 </body>
 
 </html>
